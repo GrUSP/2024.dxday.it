@@ -6,14 +6,14 @@
 # conference config
 conference:
   # Online-only conferences
-  is_online_only: true
+  is_online_only: false
   online_location: "online"
   online_location_title: "The Internet"
   online_location_info: "The conference is taking place virtually"
 
   # menu and general params
   menu_buy_tickets_label: "Buy tickets"
-  buy_tickets_url: "https://www.eventbrite.com/e/biglietti-dxday-2021-130900796807"
+  buy_tickets_url: "https://ti.to/grusp/dxday-2024"
   # additional info for microdata / schema.org
   #md_city: "Verona"
   #md_province: "VR"
@@ -24,9 +24,9 @@ conference:
   contact_email: "dxday@grusp.org"
   # these are for the hero section
   title_pre: ""
-  title: "dxday Digital Edition"
-  city: "online"
-  date: 2021-04-15T10:00+02:00
+  title: "dxday"
+  city: "BOLOGNA"
+  date: 2024-03-14T10:00+02:00
   # Use the next field to override the date in the hero
   hero_date_text:
   countdown_visible: true
@@ -51,17 +51,15 @@ conference:
   cfp_readmore_label: "Read more"
   cfp_open_label: "Submissions accepted until"
   cfp_open_title: "Call For Papers Now Open!"
-  cfp_deadline: 2021-02-15T23:59+01:00
+  cfp_deadline: 2023-11-30T23:59+01:00
   cfp_register_label: "Apply now"
   cfp_register_aria_label: "Apply now to our Call for Papers"
   # "general information" ("what is it?") component
   geninfo_visible: true
   geninfo_title: "What is it?"
-  geninfo_description: "RubyDay 2020 is the 9th edition of the Italian Ruby conference, for the 3rd year in a row organized by GrUSP, organizers of events like <a href='https://www.phpday.it/'>phpday</a> and <a href='https://www.jsday.it/'>jsday</a>.
-  <br> <br /> The event is international and all sessions will be in English.
-  <br> The event’s goal is to allow all Rubyists to meet and share experience while having fun and networking in an enjoyable context.
-  <br />
-  <br> Due to the current pandemic situation, the 2021 edition is taking place online."
+  geninfo_description: "dxday 2024 is the 1st edition of the international conference in Italy dedicated to developer experience (DX/DevEx), focusing on internal and external DX.
+  <br><br>Organized by GrUSP, this international event gathers professionals to explore themes such as ephemeral environments, AI in coding, IDP systems, remote development, API design and more. Join us to delve into the technologies and processes that boost developer productivity, satisfaction, and impact!
+  <br><br>dxday is happening in Bologna and online on Thursday, March 14th 2024."
   geninfo_about_label: "About"
   geninfo_coc_label: "Code of conduct"
   geninfo_scholarships_label: "Scholarships"
@@ -101,12 +99,12 @@ conference:
   topics_title: "Topics and themes"
   topics_description: "We'll talk about..."
   topics:
-    - "Ruby"
-    - "Ruby On Rails"
-    - "Security"
-    - "Testing"
-    - "Continuous Integration"
-    - "API"
+    - "Programming Languages & Productivity"
+    - "AI in coding"
+    - "IDP systems"
+    - "API design"
+    - "DevEx"
+    - "Ephemeral Dev Environments"
   topics_payoff: "...and much more!"
   # "workshop" component. set the first parameter to true to make it appear in home page, false means hidden
   workshop_visible: false
@@ -115,13 +113,13 @@ conference:
   workshops_readmore_label: "Read more"
   workshops_register_label: "Register"
   # Media section in home page. set the first parameter to true to make it appear in home page, false means hidden
-  media_visible: true
+  media_visible: false
   media_pic_1: ""
   media_pic_2: ""
   media_pic_3: ""
   media_pic_4: ""
   #   playlist: if true, the iframe will be created. if false, it will not
-  media_video_playlist: true
+  media_video_playlist: false
   # if `media_video_is_youtube` is `true`, the relevant playlist will be embedded via "media_video_playlist". If it is `false`, the relevant Vimeo channel will be embedded via "media_vimeo_channel"
   media_video_is_youtube: true
   youtube_base_url: "https://www.youtube.com/embed/videoseries?list="
@@ -132,26 +130,26 @@ conference:
   #   (embed Vimeo showcase: prendere l'ID dello showcase e metterla qui sotto)
   # vimeo_showcase_id: "italiandxday"
   # Location section in home page. set the first parameter to true to make it appear in home page, false means hidden
-  location_visible: false
-  location_name: "Hotel San Marco"
-  location_address: "Via Longhena 42, 37138 Verona (VE) Italy"
-  location_maps_url: "https://www.google.com/maps/place/Hotel+San+Marco+Fitness+Pool+%26+SPA/@45.4399961,10.9697441,17z/data=!3m1!4b1!4m8!3m7!1s0x4781e1e30a8be6af:0x8091b108e1d130c6!5m2!4m1!1i2!8m2!3d45.4399961!4d10.9719328"
+  location_visible: true
+  location_name: "Hotel Savoia Regency"
+  location_address: "Via del Pilastro 2, 40127 Bologna (BO) Italy"
+  location_maps_url: "https://goo.gl/maps/KmKU5YsBGjZihnkTA"
   location_maps_label: "Get directions"
   location_readmore_label: "Read more"
   # image credits (l'esempio è per la hero del CSS Day!)
   venue_img_credits: ""
   # Sponsors section in home page. set the first parameter to true to make it appear in home page, false means hidden
-  sponsors_visible: true
+  sponsors_visible: false
   sponsor_title_home: "Sponsors"
   # this is for the Community partners section in home page
-  community_partners: true
+  community_partners: false
   community_partners_title: "Community partners"
   # this is for the Social links block
   social_follow: "Follow us on"
-  social_fb_url: "https://www.facebook.com/dxday"
+  social_fb_url: "https://www.facebook.com/grusp"
   social_linkedin_url: "https://www.linkedin.com/company/grusp/"
-  social_twitter_url: "https://twitter.com/dxdayit"
-  social_vimeo_url: "https://vimeo.com/channels/italiandxday"
+  social_twitter_url: "https://twitter.com/grusp"
+  social_vimeo_url: "https://vimeo.com/grusp"
   social_youtube_url: "https://www.youtube.com/c/grusp"
   social_instagram_url: "https://www.instagram.com/grusp_/"
 
