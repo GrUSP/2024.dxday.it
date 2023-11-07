@@ -12,7 +12,7 @@ conference:
   online_location_info: "The conference is taking place virtually"
 
   # menu and general params
-  menu_buy_tickets_label: "Buy tickets"
+  menu_buy_tickets_label: "Get your ticket"
   buy_tickets_url: "https://ti.to/grusp/dxday-2024"
   # additional info for microdata / schema.org
   #md_city: "Verona"
@@ -24,7 +24,7 @@ conference:
   contact_email: "dxday@grusp.org"
   # these are for the hero section
   title_pre: ""
-  title: "dxday"
+  title: "dxday - the Developer Experience conference"
   city: "BOLOGNA"
   date: 2024-03-14T10:00+02:00
   # Use the next field to override the date in the hero
@@ -35,17 +35,17 @@ conference:
   countdown_minutes: "minutes"
   countdown_seconds: "seconds"
   ticket_button_visible: true
-  hero_buy_tickets_label: "Buy tickets now"
+  hero_buy_tickets_label: "Save your spot now"
   # image credits (l'esempio è per la hero del CSS Day!)
   # hero_img_credits: "Image by Gianni Careddu - Own work, <a href='https://commons.wikimedia.org/w/index.php?curid=74821344 target='_blank' rel='noopener noreferrer'>CC BY-SA 4.0</a>"
   # "update" component. set the first parameter to true to make it appear in home page, false means hidden
-  update_visible: false
+  update_visible: true
   update_is_warning: false
-  update_warning_header: "Questo testo appare se l'update è impostato a *warning*. Potremmo sostituirlo con un'icona o altro 'segnale'"
-  update_title: "Important information"
-  update_description: "This is the description of such important information"
-  update_link_url: "https://google.com/"
-  update_link_label: "link to google, just for the demo"
+  update_warning_header: ""
+  update_title: "TAKE A SNEEK PEEK"
+  update_description: "Participate in 'dxday preview @127.0.0.', an online event happening on Wednesday 29th November 2023. The event is a preview of dxday and it's dedicated to Platform Engineering."
+  update_link_url: "https://www.grusp.org/en/conferences_/dxday-preview-127-0-0-1/"
+  update_link_label: "An event preview"
   # "call for papers" component. set the first parameter to true to make it appear in home page, false means hidden
   cfp_open: true
   cfp_readmore_label: "Read more"
@@ -74,9 +74,10 @@ conference:
     design: false
     devops: false
     frontend: false
-    ruby: true
+    ruby: false
     entrepreneurship: false
     local_events: false
+    dxday: true
     everything: false
   newsletter_firstname_label: "First name"
   newsletter_lastname_label: "Surname"
@@ -139,8 +140,8 @@ conference:
   # image credits (l'esempio è per la hero del CSS Day!)
   venue_img_credits: ""
   # Sponsors section in home page. set the first parameter to true to make it appear in home page, false means hidden
-  sponsors_visible: false
-  sponsor_title_home: "Sponsors"
+  sponsors_visible: true
+  sponsor_title_home: "Thanks for supporting the event!"
   # this is for the Community partners section in home page
   community_partners: false
   community_partners_title: "Community partners"

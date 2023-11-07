@@ -7,16 +7,17 @@ language: "en"
 menu:
   welcome: welcome
   # talks_speakers: talks
-  # sponsor: sponsor
+  sponsor: sponsor
+  welcome/cfp.html: call for papers
   # scommentare per generare pagina
   # schedule: schedule
   # menu item for workshop
   # workshop: workshop
 
 # workshops submenu (comment out if only one workshop: add items for multiple workshops)
-workshop_submenu:
-  workshop_1: rails and vue
-  workshop_2: sample second workshop
+# workshop_submenu:
+#   workshop_1: rails and vue
+#   workshop_2: sample second workshop
 
 # welcome submenu
 welcome_submenu:
