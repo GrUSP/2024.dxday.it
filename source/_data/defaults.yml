@@ -42,7 +42,7 @@ conference:
   update_visible: true
   update_is_warning: false
   update_warning_header: ""
-  update_title: "TAKE A SNEEK PEEK"
+  update_title: "TAKE A SNEAK PEEK"
   update_description: "Participate in 'dxday preview @127.0.0.', an online event happening on Wednesday 29th November 2023. The event is a preview of dxday and it's dedicated to Platform Engineering."
   update_link_url: "https://www.grusp.org/en/conferences_/dxday-preview-127-0-0-1/"
   update_link_label: "An event preview"
