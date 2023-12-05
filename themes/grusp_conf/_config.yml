@@ -8,7 +8,7 @@ menu:
   welcome: welcome
   # talks_speakers: talks
   sponsor: sponsor
-  welcome/cfp.html: call for papers
+  # welcome/cfp.html: call for papers
   # scommentare per generare pagina
   # schedule: schedule
   # menu item for workshop
@@ -30,8 +30,8 @@ welcome_submenu:
 
 # stylesheets loaded in the <head>
 stylesheets:
-- /assets/css/global.css
+  - /assets/css/global.css
 
 # scripts loaded in the end of the body / commented out to prevent errors in compiling layout.pug
 scripts:
-- /assets/js/menu.js
+  - /assets/js/menu.js
