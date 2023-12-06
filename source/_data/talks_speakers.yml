@@ -30,9 +30,33 @@ speaker_1: &TalitaGregory
     speaker_linkedin_url: "https://www.linkedin.com/in/vincenzoscamporlino"
     is_mc: false
 
+  speaker_3: &SamanthaBetts
+    speaker_in_speaker_lists: true
+    speaker_name: Samantha Betts
+    speaker_pic_filename: SamanthaBetts.png
+    speaker_role: "Developer Experience Engineer @ OVO"
+    speaker_bio: "Samantha (she/her) from London, with an expertise for DX and frontend technologies and a passion for diversity and advocating initiatives such as women in tech."
+    speaker_github_url: "https://github.com/sammbetts"
+    speaker_linkedin_url: "https://uk.linkedin.com/in/samantha-betts-5baa7964"
+    is_mc: false
+
+  speaker_4: &LouBichard
+    speaker_in_speaker_lists: true
+    speaker_name: Lou Bichard
+    speaker_pic_filename: LouBichard.png
+    speaker_role: "Product Manager @ Gitpod"
+    speaker_bio: "Lou is a Product Manager for Gitpod, and also previously the Principal Engineer of Developer Experience for DAZN where he worked on internal developer platforms.
+    <br /> Lou works at the intersection between developer tools, platform and product."
+    speaker_github_url: "https://github.com/loujaybee"
+    speaker_linkedin_url: "hhttps://www.linkedin.com/in/loujaybee/"
+    is_mc: false
+
 speakers:
   speaker_1: *TalitaGregory
   speaker_2: *VincenzoScamporlino
+  speaker_3: *SamanthaBetts
+  speaker_4: *LouBichard
+    
 
 tracks:
   track_1: &track_1
@@ -90,9 +114,38 @@ days:
         talk_description: "Building software today is hard. In order to build complex software, you need to use different tools, api, frameworks and languages, which in the long run will lead to fragmentation, slowing you down.
 The solution to this problem is to bring all the tools together into a unified interface.<br />
 In this talk we will learn the benefit that a developer portal can bring into your organization, enhancing productivity and tackling problems such as Discoverability, System ownership, Fragmentation, Duplication, Context Switching. We will learn how you can easily build your own Developer Portal on top of Backstage, an Open Source framework for building Developer Portals adopted by companies like Spotify, Unity, Netflix, American Airlines, and Epic Games. <br />
- We will share the lessons learned and latest tips from the hundreds of Backstage adopters and thousands of contributors.
-"
+ We will share the lessons learned and latest tips from the hundreds of Backstage adopters and thousands of contributors."
         talk_video_url:
         speakers:
           speaker_1: *TalitaGregory
           speaker_2: *VincenzoScamporlino
+
+      ADevelopersExperience:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2022-05-19T10:25+02:00
+        end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "A Developer's Experience"
+        talk_description: "From Hairdresser to Software Engineer - my experience of transitioning into the tech world.
+The journey I have been on (and am still on!) has shaped the kind of developer I am. <br />
+ My passion around developer experience including diversity, equal opportunities, mentoring and engagement is all a result of the way I learned and the people I met along the way.
+<br />I believe that technology is for everyone and ultimately I hope to inspire people to follow their passion, share their experiences and open up their world to help drive and support others no matter what their background."
+        talk_video_url:
+        speakers:
+          speaker_3: *SamanthaBetts
+
+      TheouterLoopIsDead:HowAIAndCloudDevelopmentWillRevolutioniseDeveloperExperience:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2022-05-19T10:25+02:00
+        end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "The 'outer loop' is dead: How AI and cloud development will revolutionise developer experience"
+        talk_description: "Git heavily influenced our developer tooling, and much of our developer tooling revolves around the 'post commit'.
+        <br /> But, what if the commit was the last step, which came after our continuous integration? And, not before? We couldn’t do this before because we simply didn't have machines powerful enough to run our builds. 
+        <br />With cloud development environments, that's no longer the case. And with AI does this mean that we're on the cusp of a revolution of the pull request flow that has been so prevalent. 
+        <br />Is the combination of AI 'pair programming' and cloud based development the push that will take the industry away form the typical pull request UI and force us to completely re-think our developer experience? And what if our outer loop will be completely removed and consumed by workspaces in the cloud?'
+        
+        "
+        talk_video_url:
+        speakers:
+          speaker_4: *LouBichard
