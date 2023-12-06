@@ -69,12 +69,30 @@ Extrovert & Italian, I’m a team player and I believe that others' success is m
     speaker_linkedin_url: "https://www.linkedin.com/in/fcorti/"
     is_mc: false
 
+  speaker_6: &PaoloPustorino
+    speaker_in_speaker_lists: true
+    speaker_name: Paolo Pustorino
+    speaker_pic_filename: PaoloPustorino.png
+    speaker_role: "Head of HR @ SparkFabrik"
+    speaker_bio: "Software developer since my childhood, musician, and Sunday philosopher. <br />
+I nurture a craftsman spirit, creating things and making them work.<br />
+I founded SparkFabrik with people who share my values of quality, transparency, and commitment.<br />
+In my free time, I play music, fix things, and develop video games."
+    speaker_github_url: "https://github.com/stickgrinder"
+    speaker_linkedin_url: "https://github.com/stickgrinder"
+    is_mc: false
+
+  
+
 speakers:
+  speaker_5: *FrancescoCorti
+  speaker_4: *LouBichard
+  speaker_6: *PaoloPustorino
+  speaker_3: *SamanthaBetts
   speaker_1: *TalitaGregory
   speaker_2: *VincenzoScamporlino
-  speaker_3: *SamanthaBetts
-  speaker_4: *LouBichard
-  speaker_5: *FrancescoCorti
+  
+  
     
 
 tracks:
@@ -182,4 +200,21 @@ In particular, you are going to learn about the trajectory of the developer expe
         "
         talk_video_url:
         speakers:
-          speaker_4: *FrancescoCorti
+          speaker_5: *FrancescoCorti
+
+      LaunchPadsCultivatingCompanyCultureFromDay1:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2022-05-19T10:25+02:00
+        end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Launch Pads: Cultivating Company Culture from Day 1"
+        talk_description: "The deepest desire of a developer on the first day of work is to be assigned a task to complete. <br />
+        Or not? <br />
+ 
+We are not cogs in a machine; companies are communities of people and do not thrive on efficiency alone. I will tell you about how the HR department at SparkFabrik has organized the recruitment, onboarding, and support processes, drawing from our experiences as developers. <br />
+
+I'll show what we have done to streamline, optimize, and make our branch transparent. We will discuss the still-open challenges and some elephants in the room that, in my opinion, are increasingly ignored in discussions in this sector.
+        "
+        talk_video_url:
+        speakers:
+          speaker_4: *PaoloPustorino
