@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://2024.dxday.it/welcome/about.html</loc>
+    <loc>https://2024.dxday.it/welcome/cfp.html</loc>
     
     <lastmod>2023-12-06</lastmod>
     
@@ -23,20 +23,6 @@
   </url>
   
   <url>
-    <loc>https://2024.dxday.it/talks_speakers/index.html</loc>
-    
-    <lastmod>2023-12-06</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://2024.dxday.it/welcome/index.html</loc>
-    
-    <lastmod>2023-12-06</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://2024.dxday.it/sponsor/index.html</loc>
     
     <lastmod>2023-12-06</lastmod>
@@ -51,6 +37,20 @@
   </url>
   
   <url>
+    <loc>https://2024.dxday.it/welcome/index.html</loc>
+    
+    <lastmod>2023-12-06</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2024.dxday.it/talks_speakers/index.html</loc>
+    
+    <lastmod>2023-12-06</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://2024.dxday.it/workshop/workshop_1.html</loc>
     
     <lastmod>2023-12-06</lastmod>
@@ -58,7 +58,14 @@
   </url>
   
   <url>
-    <loc>https://2024.dxday.it/welcome/cfp.html</loc>
+    <loc>https://2024.dxday.it/welcome/about.html</loc>
+    
+    <lastmod>2023-12-06</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2024.dxday.it/welcome/coc.html</loc>
     
     <lastmod>2023-12-06</lastmod>
     
@@ -73,13 +80,6 @@
   
   <url>
     <loc>https://2024.dxday.it/welcome/where.html</loc>
-    
-    <lastmod>2023-12-06</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://2024.dxday.it/welcome/coc.html</loc>
     
     <lastmod>2023-12-06</lastmod>
     
