@@ -4,29 +4,40 @@ schedule_under_construction_title: "Schedule under construction"
 schedule_under_construction_description: "We are still defining the schedule. Please be patient"
 
 # Speakers. I mixin "&nome" servono per indicare quali speaker partecipano a ogni talk, sotto
-speaker_1: &speaker
-  speaker_in_speaker_lists: false
-  speaker_name:
-  speaker_pic_filename: .jpg
-  speaker_role: ""
-  speaker_bio: ""
-  speaker_github_url: ""
-  speaker_twitter_url: ""
+speaker_1: &TalitaGregory
+  speaker_in_speaker_lists: true
+  speaker_name: Talita Gregory Nunes Freire
+  speaker_pic_filename: TalitaGregory.png
+  speaker_role: "Engineer @ Spotify"
+  speaker_bio: "Talita Gregory is a Software Engineer located in Amsterdam, The Netherlands. 
+  <br />Her current role at Spotify focuses on developing Backstage Plugins that address various aspects of Spotify performance, crashes, and many others aspects. 
+  <br />Alongside her professional endeavours, Talita is deeply committed to assisting others. 
+  <br />She offers mentorship to aspiring developers as they navigate their journey into the industry, actively contributes to open-source projects, and provides technical support to non-profit organizations globally. 
+  <br />Talita's passion lies in empowering individuals and making a positive impact within the software development community."
+  speaker_github_url: "https://github.com/gregorytalita"
+  speaker_linkedin_url: "https://www.linkedin.com/in/gregory-talita"
   is_mc: false
 
+  speaker_2: &VincenzoScamporlino
+    speaker_in_speaker_lists: true
+    speaker_name: Vincenzo Scamporlino
+    speaker_pic_filename: VincenzoScamporlino.png
+    speaker_role: "Senior Engineer @ Spotify"
+    speaker_bio: "Vincenzo is a Senior Software Engineer at Spotify, working on Backstage. 
+    <br />He began his career as a Mobile Engineer in Digital Creative Agencies. His journey evolved into Full-Stack Engineering, with a focus on EV Charging Solutions. 
+    <br />Today, he passionately advocates for how Developer Experience can enhance the cost and efficiency of an organization."
+    speaker_github_url: "https://github.com/vinzscam"
+    speaker_linkedin_url: "https://www.linkedin.com/in/vincenzoscamporlino"
+    is_mc: false
+
 speakers:
-  speaker_1: *speaker
+  speaker_1: *TalitaGregory
+  speaker_2: *VincenzoScamporlino
 
 tracks:
   track_1: &track_1
     id: 1
     title: "Track 1"
-  track_2: &track_2
-    id: 2
-    title: "Track 2"
-  track_3: &track_3
-    id: 3
-    title: "Track 3 - fake track"
 
 # NB "item_type": tipi di "talk"
 #   "talk" -- un talk vero e proprio, che va anche in components/speakers e nella pagina talks_speakers
@@ -43,8 +54,8 @@ days:
     talks:
       talk_1:
         item_type: "service"
-        start_datetime: 2020-09-16T09:00
-        end_datetime: 2020-09-16T09:30
+        # start_datetime: 2020-09-16T09:00
+        # end_datetime: 2020-09-16T09:30
         talk_title: "Check-in"
       talk_2:
         item_type: "service"
@@ -60,23 +71,28 @@ days:
         service_icon: "glass"
 
       # talk
-      keynote:
-        item_type: "keynote"
-        track: *track_1
-        start_datetime: 2022-05-19T09:30+02:00
-        end_datetime: 2022-05-19T10:25+02:00
-        talk_title: ""
-        talk_description: ""
-        talk_video_url:
-        speakers:
-          speaker_1: *speaker
-      titolotalk1:
+      # keynote:
+      #   item_type: "keynote"
+      #   track: *track_1
+      #   start_datetime: 2022-05-19T09:30+02:00
+      #   end_datetime: 2022-05-19T10:25+02:00
+      #   talk_title: ""
+      #   talk_description: ""
+      #   talk_video_url:
+      #   speakers:
+      #     speaker_1: *speaker
+      OptimizingProductivity:EmbracingDeveloperPortalsInSoftwareDevelopment:
         item_type: "talk"
         track: *track_1
         start_datetime: 2022-05-19T10:25+02:00
         end_datetime: 2022-05-19T11:05+02:00
-        talk_title: ""
-        talk_description: ""
+        talk_title: "Optimizing Productivity: Embracing Developer Portals in Software Development"
+        talk_description: "Building software today is hard. In order to build complex software, you need to use different tools, api, frameworks and languages, which in the long run will lead to fragmentation, slowing you down.
+The solution to this problem is to bring all the tools together into a unified interface.<br />
+In this talk we will learn the benefit that a developer portal can bring into your organization, enhancing productivity and tackling problems such as Discoverability, System ownership, Fragmentation, Duplication, Context Switching. We will learn how you can easily build your own Developer Portal on top of Backstage, an Open Source framework for building Developer Portals adopted by companies like Spotify, Unity, Netflix, American Airlines, and Epic Games. <br />
+ We will share the lessons learned and latest tips from the hundreds of Backstage adopters and thousands of contributors.
+"
         talk_video_url:
         speakers:
-          speaker_1: *speaker
+          speaker_1: *TalitaGregory
+          speaker_2: *VincenzoScamporlino
