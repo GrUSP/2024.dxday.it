@@ -48,7 +48,25 @@ speaker_1: &TalitaGregory
     speaker_bio: "Lou is a Product Manager for Gitpod, and also previously the Principal Engineer of Developer Experience for DAZN where he worked on internal developer platforms.
     <br /> Lou works at the intersection between developer tools, platform and product."
     speaker_github_url: "https://github.com/loujaybee"
-    speaker_linkedin_url: "hhttps://www.linkedin.com/in/loujaybee/"
+    speaker_linkedin_url: "https://www.linkedin.com/in/loujaybee/"
+    is_mc: false
+
+  speaker_5: &FrancescoCorti
+    speaker_in_speaker_lists: true
+    speaker_name: Francesco Corti
+    speaker_pic_filename: FrancescoCorti.png
+    speaker_role: "Principal Product Manager @ Docker"
+    speaker_bio: "Product Manager, Open Source Enthusiast, Developer at heart, Speaker and Author. <br />
+I'm a passionate and skillful software professional with 5+ years in Product Management and 25+ years of experience in the IT industry, doing a variety of roles from Developer Relations, Software Development, Team Leading, Consultancy, Pre-Sales, Project Management, etc.
+<br />
+Principal Product Manager at Docker, Inc. (ex-Spotify, ex-Alfresco / Hyland), I'm an Open Source enthusiast for the most modern Developer Experience. I’m a developer at heart, <br /> but I thrive on enabling and inspiring millions of developers using the products that I’m excited about, to be more successful in their tasks, implementing strategies for the best solutions, and increasing the business impact by defining an enterprise-ready offering to the paying customers.<br />
+<br />
+Speaker at international conferences and meetups, author of a book, video courses, and workshops, I have a track record of building and contributing to communities of techies as well as product managers.<br />
+<br />
+Extrovert & Italian, I’m a team player and I believe that others' success is my success.
+    "
+    speaker_github_url: "https://github.com/fcorti"
+    speaker_linkedin_url: "https://www.linkedin.com/in/fcorti/"
     is_mc: false
 
 speakers:
@@ -56,6 +74,7 @@ speakers:
   speaker_2: *VincenzoScamporlino
   speaker_3: *SamanthaBetts
   speaker_4: *LouBichard
+  speaker_5: *FrancescoCorti
     
 
 tracks:
@@ -144,8 +163,23 @@ The journey I have been on (and am still on!) has shaped the kind of developer I
         <br /> But, what if the commit was the last step, which came after our continuous integration? And, not before? We couldn’t do this before because we simply didn't have machines powerful enough to run our builds. 
         <br />With cloud development environments, that's no longer the case. And with AI does this mean that we're on the cusp of a revolution of the pull request flow that has been so prevalent. 
         <br />Is the combination of AI 'pair programming' and cloud based development the push that will take the industry away form the typical pull request UI and force us to completely re-think our developer experience? And what if our outer loop will be completely removed and consumed by workspaces in the cloud?'
-        
         "
         talk_video_url:
         speakers:
           speaker_4: *LouBichard
+
+      WhereDevelopersAreChallenged,WhatDevelopersWantAndWhereDevExIsGoing:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2022-05-19T10:25+02:00
+        end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Where developers are challenged, what developers want and where DevEx is going"
+        talk_description: "Developing in today's days has never been so powerful but it is also incredibly complex and this is challenging the teams and the businesses to deliver fast a good quality software. <br />
+
+In this speech Francesco summarises his experience of 25+ years in the IT industry, including the work as Product Manager for Backstage (Spotify) and now as part of the Docker's team. <br />
+
+In particular, you are going to learn about the trajectory of the developer experience in the market and what you, as a developer, should be able to leverage and use very soon. For sure sooner than you expect.
+        "
+        talk_video_url:
+        speakers:
+          speaker_4: *FrancescoCorti
