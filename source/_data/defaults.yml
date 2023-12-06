@@ -100,10 +100,10 @@ conference:
   topics_title: "Topics and themes"
   topics_description: "We'll talk about..."
   topics:
-    - "Programming Languages & Productivity"
+    - "Developer Productivity"
     - "AI in coding"
     - "IDP systems"
-    - "API design"
+    - "Onboarding"
     - "DevEx"
     - "Ephemeral Dev Environments"
   topics_payoff: "...and much more!"
