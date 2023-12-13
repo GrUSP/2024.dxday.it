@@ -9,26 +9,26 @@ sponsors_block_title: ""
 #     name: ""
 #     logo_filename: ""
 #     site_url: ""
-# platinum:
-#   sponsor1:
-#     name: ""
-#     logo_filename: ""
-#     site_url: ""
-gold:
+platinum:
   sponsor0:
     name: "Daruma"
     logo_filename: "daruma.svg"
     site_url: "http://www.darumahq.com/"
+# gold:
+#   sponsor0:
+#     name: "Daruma"
+#     logo_filename: "daruma.svg"
+#     site_url: "http://www.darumahq.com/"
 silver:
   sponsor1:
     name: "workwave"
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"
-# bronze:
-#   sponsor1:
-#     name: ""
-#     logo_filename: ""
-#     site_url: ""
+bronze:
+  sponsor1:
+    name: "Stickermule"
+    logo_filename: "stickermule.svg"
+    site_url: "https://www.stickermule.com/it/adesivi-personalizzati"
 # diversity:
 #   sponsor1:
 #     name: "S"
