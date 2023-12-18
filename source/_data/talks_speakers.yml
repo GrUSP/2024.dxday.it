@@ -9,10 +9,10 @@ speaker_1: &TalitaGregory
   speaker_name: Talita Gregory Nunes Freire
   speaker_pic_filename: TalitaGregory.png
   speaker_role: "Engineer @ Spotify"
-  speaker_bio: "Talita Gregory is a Software Engineer located in Amsterdam, The Netherlands. 
-  <br />Her current role at Spotify focuses on developing Backstage Plugins that address various aspects of Spotify performance, crashes, and many others aspects. 
-  <br />Alongside her professional endeavours, Talita is deeply committed to assisting others. 
-  <br />She offers mentorship to aspiring developers as they navigate their journey into the industry, actively contributes to open-source projects, and provides technical support to non-profit organizations globally. 
+  speaker_bio: "Talita Gregory is a Software Engineer located in Amsterdam, The Netherlands.
+  <br />Her current role at Spotify focuses on developing Backstage Plugins that address various aspects of Spotify performance, crashes, and many others aspects.
+  <br />Alongside her professional endeavours, Talita is deeply committed to assisting others.
+  <br />She offers mentorship to aspiring developers as they navigate their journey into the industry, actively contributes to open-source projects, and provides technical support to non-profit organizations globally.
   <br />Talita's passion lies in empowering individuals and making a positive impact within the software development community."
   speaker_github_url: "https://github.com/gregorytalita"
   speaker_linkedin_url: "https://www.linkedin.com/in/gregory-talita"
@@ -23,8 +23,8 @@ speaker_1: &TalitaGregory
     speaker_name: Vincenzo Scamporlino
     speaker_pic_filename: VincenzoScamporlino.png
     speaker_role: "Senior Engineer @ Spotify"
-    speaker_bio: "Vincenzo is a Senior Software Engineer at Spotify, working on Backstage. 
-    <br />He began his career as a Mobile Engineer in Digital Creative Agencies. His journey evolved into Full-Stack Engineering, with a focus on EV Charging Solutions. 
+    speaker_bio: "Vincenzo is a Senior Software Engineer at Spotify, working on Backstage.
+    <br />He began his career as a Mobile Engineer in Digital Creative Agencies. His journey evolved into Full-Stack Engineering, with a focus on EV Charging Solutions.
     <br />Today, he passionately advocates for how Developer Experience can enhance the cost and efficiency of an organization."
     speaker_github_url: "https://github.com/vinzscam"
     speaker_linkedin_url: "https://www.linkedin.com/in/vincenzoscamporlino"
@@ -82,7 +82,7 @@ In my free time, I play music, fix things, and develop video games."
     speaker_linkedin_url: "https://www.linkedin.com/in/paolo-pustorino-52267742/"
     is_mc: false
 
-  
+
 
 speakers:
   speaker_5: *FrancescoCorti
@@ -91,9 +91,9 @@ speakers:
   speaker_3: *SamanthaBetts
   speaker_1: *TalitaGregory
   speaker_2: *VincenzoScamporlino
-  
-  
-    
+
+
+
 
 tracks:
   track_1: &track_1
@@ -145,8 +145,8 @@ days:
       OptimizingProductivity:EmbracingDeveloperPortalsInSoftwareDevelopment:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2022-05-19T10:25+02:00
-        end_datetime: 2022-05-19T11:05+02:00
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
         talk_title: "Optimizing Productivity: Embracing Developer Portals in Software Development"
         talk_description: "Building software today is hard. In order to build complex software, you need to use different tools, api, frameworks and languages, which in the long run will lead to fragmentation, slowing you down.
 The solution to this problem is to bring all the tools together into a unified interface.<br />
@@ -160,8 +160,8 @@ In this talk we will learn the benefit that a developer portal can bring into yo
       ADevelopersExperience:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2022-05-19T10:25+02:00
-        end_datetime: 2022-05-19T11:05+02:00
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
         talk_title: "A Developer's Experience"
         talk_description: "From Hairdresser to Software Engineer - my experience of transitioning into the tech world.
 The journey I have been on (and am still on!) has shaped the kind of developer I am. <br />
@@ -174,12 +174,12 @@ The journey I have been on (and am still on!) has shaped the kind of developer I
       TheouterLoopIsDead:HowAIAndCloudDevelopmentWillRevolutioniseDeveloperExperience:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2022-05-19T10:25+02:00
-        end_datetime: 2022-05-19T11:05+02:00
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
         talk_title: "The 'outer loop' is dead: How AI and cloud development will revolutionise developer experience"
         talk_description: "Git heavily influenced our developer tooling, and much of our developer tooling revolves around the 'post commit'.
-        <br /> But, what if the commit was the last step, which came after our continuous integration? And, not before? We couldn’t do this before because we simply didn't have machines powerful enough to run our builds. 
-        <br />With cloud development environments, that's no longer the case. And with AI does this mean that we're on the cusp of a revolution of the pull request flow that has been so prevalent. 
+        <br /> But, what if the commit was the last step, which came after our continuous integration? And, not before? We couldn’t do this before because we simply didn't have machines powerful enough to run our builds.
+        <br />With cloud development environments, that's no longer the case. And with AI does this mean that we're on the cusp of a revolution of the pull request flow that has been so prevalent.
         <br />Is the combination of AI 'pair programming' and cloud based development the push that will take the industry away form the typical pull request UI and force us to completely re-think our developer experience? And what if our outer loop will be completely removed and consumed by workspaces in the cloud?'
         "
         talk_video_url:
@@ -189,8 +189,8 @@ The journey I have been on (and am still on!) has shaped the kind of developer I
       WhereDevelopersAreChallenged,WhatDevelopersWantAndWhereDevExIsGoing:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2022-05-19T10:25+02:00
-        end_datetime: 2022-05-19T11:05+02:00
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
         talk_title: "Where developers are challenged, what developers want and where DevEx is going"
         talk_description: "Developing in today's days has never been so powerful but it is also incredibly complex and this is challenging the teams and the businesses to deliver fast a good quality software. <br />
 
@@ -205,12 +205,12 @@ In particular, you are going to learn about the trajectory of the developer expe
       LaunchPadsCultivatingCompanyCultureFromDay1:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2022-05-19T10:25+02:00
-        end_datetime: 2022-05-19T11:05+02:00
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
         talk_title: "Launch Pads: Cultivating Company Culture from Day 1"
         talk_description: "The deepest desire of a developer on the first day of work is to be assigned a task to complete. <br />
         Or not? <br />
- 
+
 We are not cogs in a machine; companies are communities of people and do not thrive on efficiency alone. I will tell you about how the HR department at SparkFabrik has organized the recruitment, onboarding, and support processes, drawing from our experiences as developers. <br />
 
 I'll show what we have done to streamline, optimize, and make our branch transparent. We will discuss the still-open challenges and some elephants in the room that, in my opinion, are increasingly ignored in discussions in this sector.
