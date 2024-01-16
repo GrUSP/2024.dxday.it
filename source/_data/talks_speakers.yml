@@ -82,6 +82,18 @@ In my free time, I play music, fix things, and develop video games."
     speaker_linkedin_url: "https://www.linkedin.com/in/paolo-pustorino-52267742/"
     is_mc: false
 
+  speaker_7: &MaximSalnikov
+    speaker_in_speaker_lists: true
+    speaker_name: Maxim Salnikov
+    speaker_pic_filename: MaximSalnikov.png
+    speaker_role: "Developer Productivity Lead @ Microsoft"
+    speaker_bio: "Maxim Salnikov is a tech and cloud community enthusiast based in Oslo. <br />
+    He is an experienced web developer who has been creating applications since the end of the last century and shares his extensive knowledge of web platform, cloud computing, and AI by speaking and providing training at developer events around the world. During the day, Maxim helps to improve cloud and AI skills in European companies by leading the developer productivity business at Microsoft. 
+    <br />In the evenings, he can be found organizing Norway's largest web and cloud development meetups."
+    speaker_github_url: "https://github.com/webmaxru"
+    speaker_linkedin_url: "https://www.linkedin.com/in/webmax/"
+    is_mc: false
+
 
 
 speakers:
@@ -90,8 +102,8 @@ speakers:
   speaker_6: *PaoloPustorino
   speaker_3: *SamanthaBetts
   speaker_1: *TalitaGregory
+  speaker_7: *MaximSalnikov
   speaker_2: *VincenzoScamporlino
-
 
 
 
@@ -218,3 +230,16 @@ I'll show what we have done to streamline, optimize, and make our branch transpa
         talk_video_url:
         speakers:
           speaker_4: *PaoloPustorino
+
+      IfYourCodeCouldSpeakWhatWouldItTellYouLetGitHubCopilotChatHelpYouFindOut:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "If your code could speak, what would it tell you? Let GitHub Copilot Chat help you find out!"
+        talk_description: "Have you been in the situation where you need to remember what is this code written by you some time ago about?
+        <br />Not even saying about you trying to understand someone else's code? GitHub Copilot Chat is a new way to code, where you can write code, fix bugs, write tests, and explain code to yourself and others in a chat window in a sidebar or inline. <br />
+        In this session, I'll demonstrate how GitHub Copilot Chat takes developer experience to the next level and how it can help you be more productive in your day-to-day work."
+        talk_video_url:
+        speakers:
+          speaker_7: *MaximSalnikov
