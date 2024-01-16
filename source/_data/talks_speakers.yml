@@ -93,6 +93,17 @@ In my free time, I play music, fix things, and develop video games."
     speaker_github_url: "https://github.com/webmaxru"
     speaker_linkedin_url: "https://www.linkedin.com/in/webmax/"
     is_mc: false
+  
+  speaker_8: &ThomasKhalil
+    speaker_in_speaker_lists: true
+    speaker_name: Thomas Khalil
+    speaker_pic_filename: ThomasKhalil.png
+    speaker_role: "Head of Platform & Site Reliability Engineering @ trivago"
+    speaker_bio: "As the Head of Platform and Site Reliability Engineering at trivago, Thomas leads teams of engineers responsible for designing, building, and maintaining the cloud infrastructure and services that power the world's largest hotel search platform. <br />
+    With over 10 years of experience in the cloud domain, he is passionate about delivering reliable, scalable, and secure solutions that cater to the needs of millions of users and partners."
+    speaker_github_url: "https://github.com/KernelPanicAUS"
+    speaker_linkedin_url: "https://www.linkedin.com/in/thomas-khalil/"
+    is_mc: false
 
 
 
@@ -102,6 +113,7 @@ speakers:
   speaker_6: *PaoloPustorino
   speaker_3: *SamanthaBetts
   speaker_1: *TalitaGregory
+  speaker_8: *ThomasKhalil
   speaker_7: *MaximSalnikov
   speaker_2: *VincenzoScamporlino
 
@@ -243,3 +255,17 @@ I'll show what we have done to streamline, optimize, and make our branch transpa
         talk_video_url:
         speakers:
           speaker_7: *MaximSalnikov
+
+      YellowBrickCodeLessonsFromTheWizardOfOzOnEnhancingDeveloperExperience:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Yellow Brick Code: Lessons from The Wizard of Oz on Enhancing Developer Experience"
+        talk_description: "Join us on our journey through the land of Developer Experience as we empower our engineers to deliver value with confidence and remove gatekeepers. <br /> 
+        Throughout this adventure, we will learn that empathy, systemic thinking and challenging the status quo are all prerequisites needed to achieve our goals. <br />
+To navigate the maze that is modern day software development, we need to look beyond the toil and shift our attention to the big picture. We bust the myth that the Wizard has all the answers. 
+<br />In truth, we had them all along."
+        talk_video_url:
+        speakers:
+          speaker_8: *ThomasKhalil
