@@ -107,6 +107,16 @@ In my free time, I play music, fix things, and develop video games."
     speaker_linkedin_url: "https://www.linkedin.com/in/thomas-khalil/"
     is_mc: false
 
+  speaker_9: &CirpoCinelli
+    speaker_in_speaker_lists: true
+    speaker_name: Cirpo Cinelli
+    speaker_pic_filename: CirpoCinelli.png
+    speaker_role: "Engineering Manager @ Samsara"
+    speaker_bio: "Cirpo is an Engineering Manager at Samsara, supporting the OPX, Operational Execellence team in Core Infra. <br />
+     He has been working in the Developer Experience space for the past 6 years, starting at DAZN and Spotify <br /> "
+    speaker_linkedin_url: "https://www.linkedin.com/in/cirpo/"
+    is_mc: true
+
 
 
 speakers:
@@ -118,6 +128,7 @@ speakers:
   speaker_8: *ThomasKhalil
   speaker_7: *MaximSalnikov
   speaker_2: *VincenzoScamporlino
+  speaker_9: *CirpoCinelli
 
 tracks:
   track_1: &track_1
