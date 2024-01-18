@@ -30,14 +30,15 @@ speaker_1: &TalitaGregory
     speaker_linkedin_url: "https://www.linkedin.com/in/vincenzoscamporlino"
     is_mc: false
 
-  speaker_3: &SamanthaBetts
+  speaker_3: &AbiodunOlowode
     speaker_in_speaker_lists: true
-    speaker_name: Samantha Betts
-    speaker_pic_filename: SamanthaBetts.png
-    speaker_role: "Developer Experience Engineer @ OVO"
-    speaker_bio: "Samantha (she/her) from London, with an expertise for DX and frontend technologies and a passion for diversity and advocating initiatives such as women in tech."
-    speaker_github_url: "https://github.com/sammbetts"
-    speaker_linkedin_url: "https://uk.linkedin.com/in/samantha-betts-5baa7964"
+    speaker_name: Abiodun Olowode
+    speaker_pic_filename: AbiodunOlowode.png
+    speaker_role: "Senior Engineering Manager @ Factorial"
+    speaker_bio: "Abiodun Olowode is a Senior Engineering Manager at Factorial in Barcelona, who due to her passion for solving problems and building solutions, made the switch to software engineering from Avionics engineering. She is very enthusiastic about sharing her knowledge and breaking down complex technical concepts, via writing. You'll find some of her Ruby articles on the AppSignal and HoneyBadger blogs. In her free time, she enjoys watching movies and documentaries to learn more about the world. 
+    <br />She's always up for a new challenge, especially when it involves making the world a better place one line of code at a time."
+    speaker_twitter_url: "https://twitter.com/@biodunAjibade3"
+    speaker_linkedin_url: "https://www.linkedin.com/in/abiodun-ajibade"
     is_mc: false
 
   speaker_4: &LouBichard
@@ -48,6 +49,7 @@ speaker_1: &TalitaGregory
     speaker_bio: "Lou is a Product Manager for Gitpod, and also previously the Principal Engineer of Developer Experience for DAZN where he worked on internal developer platforms.
     <br /> Lou works at the intersection between developer tools, platform and product."
     speaker_github_url: "https://github.com/loujaybee"
+    speaker_twitter_url: "https://twitter.com/loujaybee"
     speaker_linkedin_url: "https://www.linkedin.com/in/loujaybee/"
     is_mc: false
 
@@ -108,16 +110,14 @@ In my free time, I play music, fix things, and develop video games."
 
 
 speakers:
+  speaker_3: *AbiodunOlowode
   speaker_5: *FrancescoCorti
   speaker_4: *LouBichard
   speaker_6: *PaoloPustorino
-  speaker_3: *SamanthaBetts
   speaker_1: *TalitaGregory
   speaker_8: *ThomasKhalil
   speaker_7: *MaximSalnikov
   speaker_2: *VincenzoScamporlino
-
-
 
 tracks:
   track_1: &track_1
@@ -181,19 +181,23 @@ In this talk we will learn the benefit that a developer portal can bring into yo
           speaker_1: *TalitaGregory
           speaker_2: *VincenzoScamporlino
 
-      ADevelopersExperience:
+      RevolutionizingDeveloperExperienceThroughDocumentationDrivenDevelopment:        
         item_type: "talk"
         track: *track_1
         # start_datetime: 2022-05-19T10:25+02:00
         # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "A Developer's Experience"
-        talk_description: "From Hairdresser to Software Engineer - my experience of transitioning into the tech world.
-The journey I have been on (and am still on!) has shaped the kind of developer I am. <br />
- My passion around developer experience including diversity, equal opportunities, mentoring and engagement is all a result of the way I learned and the people I met along the way.
-<br />I believe that technology is for everyone and ultimately I hope to inspire people to follow their passion, share their experiences and open up their world to help drive and support others no matter what their background."
+        talk_title: "Revolutionizing Developer Experience through Documentation Driven Development"
+        talk_description: "
+In the dynamic landscape of developer experience, documentation often takes a back seat, relegated to a role of retrospective record-keeping. 
+<br />This talk challenges the status quo by advocating for Documentation-Driven Development (DDD) as a pivotal, proactive force shaping the very essence of developer experience.
+<br />
+Beyond code implementation, we explore the continuous nature of documentation, presenting it as an ongoing dialogue rather than a static artifact. 
+<br />We contend that this approach not only facilitates project evolution comprehension but also enriches team collaboration and knowledge sharing.
+
+<br />Join us on a journey taking a real life example into consideration, where documentation transcends its traditional role, becoming an active participant in the developer experience narrative—from initiation, through the development lifecycle, to ongoing refinement. Discover how embracing Documentation-Driven Development cultivates a richer, more cohesive, and ultimately more satisfying developer experience."
         talk_video_url:
         speakers:
-          speaker_3: *SamanthaBetts
+          speaker_3: *AbiodunOlowode
 
       TheouterLoopIsDead:HowAIAndCloudDevelopmentWillRevolutioniseDeveloperExperience:
         item_type: "talk"
