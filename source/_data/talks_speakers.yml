@@ -35,9 +35,8 @@ speaker_1: &TalitaGregory
     speaker_name: Abiodun Olowode
     speaker_pic_filename: AbiodunOlowode.png
     speaker_role: "Senior Engineering Manager @ Factorial"
-    speaker_bio: "Abiodun Olowode is a Senior Engineering Manager at Factorial in Barcelona, who due to her passion for solving problems and building solutions, made the switch to software engineering from Avionics engineering. She is very enthusiastic about sharing her knowledge and breaking down complex technical concepts, via writing. You'll find some of her Ruby articles on the AppSignal and HoneyBadger blogs. In her free time, she enjoys watching movies and documentaries to learn more about the world. 
+    speaker_bio: "Abiodun Olowode is a Senior Engineering Manager at Factorial in Barcelona, who due to her passion for solving problems and building solutions, made the switch to software engineering from Avionics engineering. She is very enthusiastic about sharing her knowledge and breaking down complex technical concepts, via writing. You'll find some of her Ruby articles on the AppSignal and HoneyBadger blogs. In her free time, she enjoys watching movies and documentaries to learn more about the world.
     <br />She's always up for a new challenge, especially when it involves making the world a better place one line of code at a time."
-    speaker_twitter_url: "https://twitter.com/@biodunAjibade3"
     speaker_linkedin_url: "https://www.linkedin.com/in/abiodun-ajibade"
     is_mc: false
 
@@ -90,12 +89,12 @@ In my free time, I play music, fix things, and develop video games."
     speaker_pic_filename: MaximSalnikov.png
     speaker_role: "Developer Productivity Lead @ Microsoft"
     speaker_bio: "Maxim Salnikov is a tech and cloud community enthusiast based in Oslo. <br />
-    He is an experienced web developer who has been creating applications since the end of the last century and shares his extensive knowledge of web platform, cloud computing, and AI by speaking and providing training at developer events around the world. During the day, Maxim helps to improve cloud and AI skills in European companies by leading the developer productivity business at Microsoft. 
+    He is an experienced web developer who has been creating applications since the end of the last century and shares his extensive knowledge of web platform, cloud computing, and AI by speaking and providing training at developer events around the world. During the day, Maxim helps to improve cloud and AI skills in European companies by leading the developer productivity business at Microsoft.
     <br />In the evenings, he can be found organizing Norway's largest web and cloud development meetups."
     speaker_github_url: "https://github.com/webmaxru"
     speaker_linkedin_url: "https://www.linkedin.com/in/webmax/"
     is_mc: false
-  
+
   speaker_8: &ThomasKhalil
     speaker_in_speaker_lists: true
     speaker_name: Thomas Khalil
@@ -111,7 +110,7 @@ In my free time, I play music, fix things, and develop video games."
     speaker_in_speaker_lists: true
     speaker_name: Cirpo Cinelli
     speaker_pic_filename: CirpoCinelli.png
-    speaker_role: "Engineering Manager @ Samsara"
+    speaker_role: "MASTER OF CEREMONIES - Engineering Manager @ Samsara"
     speaker_bio: "Cirpo is an Engineering Manager at Samsara, supporting the OPX, Operational Execellence team in Core Infra. <br />
      He has been working in the Developer Experience space for the past 6 years, starting at DAZN and Spotify <br /> "
     speaker_linkedin_url: "https://www.linkedin.com/in/cirpo/"
@@ -192,17 +191,17 @@ In this talk we will learn the benefit that a developer portal can bring into yo
           speaker_1: *TalitaGregory
           speaker_2: *VincenzoScamporlino
 
-      RevolutionizingDeveloperExperienceThroughDocumentationDrivenDevelopment:        
+      RevolutionizingDeveloperExperienceThroughDocumentationDrivenDevelopment:
         item_type: "talk"
         track: *track_1
         # start_datetime: 2022-05-19T10:25+02:00
         # end_datetime: 2022-05-19T11:05+02:00
         talk_title: "Revolutionizing Developer Experience through Documentation Driven Development"
         talk_description: "
-In the dynamic landscape of developer experience, documentation often takes a back seat, relegated to a role of retrospective record-keeping. 
+In the dynamic landscape of developer experience, documentation often takes a back seat, relegated to a role of retrospective record-keeping.
 <br />This talk challenges the status quo by advocating for Documentation-Driven Development (DDD) as a pivotal, proactive force shaping the very essence of developer experience.
 <br />
-Beyond code implementation, we explore the continuous nature of documentation, presenting it as an ongoing dialogue rather than a static artifact. 
+Beyond code implementation, we explore the continuous nature of documentation, presenting it as an ongoing dialogue rather than a static artifact.
 <br />We contend that this approach not only facilitates project evolution comprehension but also enriches team collaboration and knowledge sharing.
 
 <br />Join us on a journey taking a real life example into consideration, where documentation transcends its traditional role, becoming an active participant in the developer experience narrative—from initiation, through the development lifecycle, to ongoing refinement. Discover how embracing Documentation-Driven Development cultivates a richer, more cohesive, and ultimately more satisfying developer experience."
@@ -277,9 +276,9 @@ I'll show what we have done to streamline, optimize, and make our branch transpa
         # start_datetime: 2022-05-19T10:25+02:00
         # end_datetime: 2022-05-19T11:05+02:00
         talk_title: "Yellow Brick Code: Lessons from The Wizard of Oz on Enhancing Developer Experience"
-        talk_description: "Join us on our journey through the land of Developer Experience as we empower our engineers to deliver value with confidence and remove gatekeepers. <br /> 
+        talk_description: "Join us on our journey through the land of Developer Experience as we empower our engineers to deliver value with confidence and remove gatekeepers. <br />
         Throughout this adventure, we will learn that empathy, systemic thinking and challenging the status quo are all prerequisites needed to achieve our goals. <br />
-To navigate the maze that is modern day software development, we need to look beyond the toil and shift our attention to the big picture. We bust the myth that the Wizard has all the answers. 
+To navigate the maze that is modern day software development, we need to look beyond the toil and shift our attention to the big picture. We bust the myth that the Wizard has all the answers.
 <br />In truth, we had them all along."
         talk_video_url:
         speakers:

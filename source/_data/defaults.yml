@@ -58,7 +58,7 @@ conference:
   geninfo_title: "What is it?"
   geninfo_description: "dxday 2024 is the 1st edition of the international conference in Italy dedicated to developer experience (DX/DevEx), focusing on internal and external DX.
   <br><br>Organized by GrUSP, this international event gathers professionals to explore themes such as ephemeral environments, AI in coding, IDP systems, remote development, API design and more. Join us to delve into the technologies and processes that boost developer productivity, satisfaction, and impact!
-  <br><br>dxday is happening in Bologna and online on Thursday, March 14th 2024."
+  <br><br>dxday is happening in Bologna and online on Thursday, March 14th 2024. The conference is in English language."
   geninfo_about_label: "About"
   geninfo_coc_label: "Code of conduct"
   geninfo_scholarships_label: "Scholarships"
@@ -93,7 +93,7 @@ conference:
   speakers_visible: true
   speakers_title: "speaker"
   mcs_title: "MC"
-  speaker_count_text: "Meet the first announced speakers, stay tuned for more!"
+  speaker_count_text: "What a lineup!"
   # "topics" component. set the first parameter to true to make it appear in home page, false means hidden
   topics_visible: true
   topics_title: "Topics and themes"

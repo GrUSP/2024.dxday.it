@@ -21,6 +21,10 @@ platinum:
 #     site_url: "http://www.darumahq.com/"
 silver:
   sponsor1:
+    name: "SparkFabrik"
+    logo_filename: "sparkfabrik.svg"
+    site_url: "https://www.sparkfabrik.com/"
+  sponsor2:
     name: "workwave"
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"
