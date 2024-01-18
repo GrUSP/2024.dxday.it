@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://2024.dxday.it/welcome/about.html</loc>
+    <loc>https://2024.dxday.it/welcome/cfp.html</loc>
     
     <lastmod>2024-01-18</lastmod>
     
@@ -10,6 +10,13 @@
   
   <url>
     <loc>https://2024.dxday.it/workshop/workshop_2.html</loc>
+    
+    <lastmod>2024-01-18</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2024.dxday.it/schedule/index.html</loc>
     
     <lastmod>2024-01-18</lastmod>
     
@@ -30,21 +37,14 @@
   </url>
   
   <url>
-    <loc>https://2024.dxday.it/welcome/index.html</loc>
-    
-    <lastmod>2024-01-18</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://2024.dxday.it/schedule/index.html</loc>
-    
-    <lastmod>2024-01-18</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://2024.dxday.it/tickets/index.html</loc>
+    
+    <lastmod>2024-01-18</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2024.dxday.it/welcome/index.html</loc>
     
     <lastmod>2024-01-18</lastmod>
     
@@ -65,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://2024.dxday.it/welcome/cfp.html</loc>
+    <loc>https://2024.dxday.it/welcome/about.html</loc>
     
     <lastmod>2024-01-18</lastmod>
     
