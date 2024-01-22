@@ -14,16 +14,12 @@ platinum:
     name: "Daruma"
     logo_filename: "daruma.svg"
     site_url: "http://www.darumahq.com/"
-# gold:
-#   sponsor0:
-#     name: "Daruma"
-#     logo_filename: "daruma.svg"
-#     site_url: "http://www.darumahq.com/"
-silver:
+gold:
   sponsor1:
     name: "SparkFabrik"
     logo_filename: "sparkfabrik.svg"
     site_url: "https://www.sparkfabrik.com/"
+silver:
   sponsor2:
     name: "workwave"
     logo_filename: "workwave.svg"
