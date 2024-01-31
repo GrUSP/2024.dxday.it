@@ -160,8 +160,7 @@ conference:
   #   this is for the "previous editions" links
   base_url: "dxday.it/"
   past_editions_pre: "Browse past editions:"
-  past_editions:
-#    2020: "2020"
+  past_editions: []
   past_editions_videos_pre: "Videos from the past editions are available on "
   past_editions_videos_vimeo_label: "Vimeo"
   past_editions_videos_mid: " and "
