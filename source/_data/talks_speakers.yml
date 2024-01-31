@@ -290,7 +290,7 @@ To navigate the maze that is modern day software development, we need to look be
           speaker_8: *ThomasKhalil
 
       Panel:
-        item_type: "keynote"
+        item_type: "talk"
         track: *track_1
         start_datetime: 2024-03-14T17:00+01:00
         end_datetime: 2024-03-14T17:40+01:00
