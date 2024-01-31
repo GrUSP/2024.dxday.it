@@ -144,48 +144,53 @@ tracks:
 
 days:
   day_1:
-    date: 2020-09-16T09:00
+    date: 2024-03-14T09:00
     title: "Day 1"
     talks:
-      talk_1:
+      check-in:
         item_type: "service"
-        # start_datetime: 2020-09-16T09:00
-        # end_datetime: 2020-09-16T09:30
+        start_datetime: 2024-03-14T09:00+01:00
+        end_datetime: 2024-03-14T09:30+01:00
         talk_title: "Check-in"
-      talk_2:
+      opening:
         item_type: "service"
-        start_datetime: 2022-05-19T13:00+02:00
-        end_datetime: 2022-05-19T14:30+02:00
+        start_datetime: 2024-03-14T09:30+01:00
+        end_datetime: 2024-03-14T09:50+01:00
+        talk_title: "Opening by GrUSP"
+      lunch:
+        item_type: "service"
+        start_datetime: 2024-03-14T13:00+01:00
+        end_datetime: 2024-03-14T14:30+01:00
         talk_title: "Lunch break"
         service_icon: "cutlery"
-      happy-hour:
+      coffee-morning:
         item_type: "service"
-        start_datetime: 2022-05-19T18:25+02:00
-        end_datetime: 2022-05-19T19:30+02:00
-        talk_title: "Happy Hour"
-        service_icon: "glass"
+        start_datetime: 2024-03-14T11:10+01:00
+        end_datetime: 2024-03-14T11:40+01:00
+        talk_title: "Coffee break"
+        service_icon: "coffee"
+      coffee-afternoon:
+        item_type: "service"
+        start_datetime: 2024-03-14T15:50+01:00
+        end_datetime: 2024-03-14T15:50+01:00
+        talk_title: "Coffee break"
+        service_icon: "coffee"
+      closing:
+        item_type: "service"
+        start_datetime: 2024-03-14T17:40+01:00
+        end_datetime: 2024-03-14T17:50+01:00
+        talk_title: "👋 See you next time!"
 
-      # talk
-      # keynote:
-      #   item_type: "keynote"
-      #   track: *track_1
-      #   start_datetime: 2022-05-19T09:30+02:00
-      #   end_datetime: 2022-05-19T10:25+02:00
-      #   talk_title: ""
-      #   talk_description: ""
-      #   talk_video_url:
-      #   speakers:
-      #     speaker_1: *speaker
       OptimizingProductivity:EmbracingDeveloperPortalsInSoftwareDevelopment:
         item_type: "talk"
         track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
+        start_datetime: 2024-03-14T11:40+01:00
+        end_datetime: 2024-03-14T12:20+01:00
         talk_title: "Optimizing Productivity: Embracing Developer Portals in Software Development"
         talk_description: "Building software today is hard. In order to build complex software, you need to use different tools, api, frameworks and languages, which in the long run will lead to fragmentation, slowing you down.
-The solution to this problem is to bring all the tools together into a unified interface.<br />
-In this talk we will learn the benefit that a developer portal can bring into your organization, enhancing productivity and tackling problems such as Discoverability, System ownership, Fragmentation, Duplication, Context Switching. We will learn how you can easily build your own Developer Portal on top of Backstage, an Open Source framework for building Developer Portals adopted by companies like Spotify, Unity, Netflix, American Airlines, and Epic Games. <br />
- We will share the lessons learned and latest tips from the hundreds of Backstage adopters and thousands of contributors."
+        The solution to this problem is to bring all the tools together into a unified interface.<br />
+        In this talk we will learn the benefit that a developer portal can bring into your organization, enhancing productivity and tackling problems such as Discoverability, System ownership, Fragmentation, Duplication, Context Switching. We will learn how you can easily build your own Developer Portal on top of Backstage, an Open Source framework for building Developer Portals adopted by companies like Spotify, Unity, Netflix, American Airlines, and Epic Games. <br />
+        We will share the lessons learned and latest tips from the hundreds of Backstage adopters and thousands of contributors."
         talk_video_url:
         speakers:
           speaker_1: *TalitaGregory
@@ -194,8 +199,8 @@ In this talk we will learn the benefit that a developer portal can bring into yo
       RevolutionizingDeveloperExperienceThroughDocumentationDrivenDevelopment:
         item_type: "talk"
         track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
+        start_datetime: 2024-03-14T14:30+01:00
+        end_datetime: 2024-03-14T15:10+01:00
         talk_title: "Revolutionizing Developer Experience through Documentation Driven Development"
         talk_description: "
 In the dynamic landscape of developer experience, documentation often takes a back seat, relegated to a role of retrospective record-keeping.
@@ -212,8 +217,8 @@ Beyond code implementation, we explore the continuous nature of documentation, p
       TheouterLoopIsDead:HowAIAndCloudDevelopmentWillRevolutioniseDeveloperExperience:
         item_type: "talk"
         track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
+        start_datetime: 2024-03-14T12:20+01:00
+        end_datetime: 2024-03-14T13:00+01:00
         talk_title: "The 'outer loop' is dead: How AI and cloud development will revolutionise developer experience"
         talk_description: "Git heavily influenced our developer tooling, and much of our developer tooling revolves around the 'post commit'.
         <br /> But, what if the commit was the last step, which came after our continuous integration? And, not before? We couldn’t do this before because we simply didn't have machines powerful enough to run our builds.
@@ -227,8 +232,8 @@ Beyond code implementation, we explore the continuous nature of documentation, p
       WhereDevelopersAreChallenged,WhatDevelopersWantAndWhereDevExIsGoing:
         item_type: "talk"
         track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
+        start_datetime: 2024-03-14T16:20+01:00
+        end_datetime: 2024-03-14T17:00+01:00
         talk_title: "Where developers are challenged, what developers want and where DevEx is going"
         talk_description: "Developing in today's days has never been so powerful but it is also incredibly complex and this is challenging the teams and the businesses to deliver fast a good quality software. <br />
 
@@ -243,8 +248,8 @@ In particular, you are going to learn about the trajectory of the developer expe
       LaunchPadsCultivatingCompanyCultureFromDay1:
         item_type: "talk"
         track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
+        start_datetime: 2024-03-14T10:30+01:00
+        end_datetime: 2024-03-14T11:10+01:00
         talk_title: "Launch Pads: Cultivating Company Culture from Day 1"
         talk_description: "The deepest desire of a developer on the first day of work is to be assigned a task to complete. <br />
         Or not? <br />
@@ -260,8 +265,8 @@ I'll show what we have done to streamline, optimize, and make our branch transpa
       IfYourCodeCouldSpeakWhatWouldItTellYouLetGitHubCopilotChatHelpYouFindOut:
         item_type: "talk"
         track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
+        start_datetime: 2024-03-14T09:50+01:00
+        end_datetime: 2024-03-14T10:30+01:00
         talk_title: "If your code could speak, what would it tell you? Let GitHub Copilot Chat help you find out!"
         talk_description: "Have you been in the situation where you need to remember what is this code written by you some time ago about?
         <br />Not even saying about you trying to understand someone else's code? GitHub Copilot Chat is a new way to code, where you can write code, fix bugs, write tests, and explain code to yourself and others in a chat window in a sidebar or inline. <br />
@@ -273,8 +278,8 @@ I'll show what we have done to streamline, optimize, and make our branch transpa
       YellowBrickCodeLessonsFromTheWizardOfOzOnEnhancingDeveloperExperience:
         item_type: "talk"
         track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
+        start_datetime: 2024-03-14T15:10+01:00
+        end_datetime: 2024-03-14T15:50+01:00
         talk_title: "Yellow Brick Code: Lessons from The Wizard of Oz on Enhancing Developer Experience"
         talk_description: "Join us on our journey through the land of Developer Experience as we empower our engineers to deliver value with confidence and remove gatekeepers. <br />
         Throughout this adventure, we will learn that empathy, systemic thinking and challenging the status quo are all prerequisites needed to achieve our goals. <br />
@@ -283,3 +288,14 @@ To navigate the maze that is modern day software development, we need to look be
         talk_video_url:
         speakers:
           speaker_8: *ThomasKhalil
+
+      Panel:
+        item_type: "keynote"
+        track: *track_1
+        start_datetime: 2024-03-14T17:00+01:00
+        end_datetime: 2024-03-14T17:40+01:00
+        talk_title: "Panel: 'Developer Experience, why now?'"
+      
+        talk_video_url:
+        speakers:
+          
