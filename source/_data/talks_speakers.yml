@@ -181,6 +181,40 @@ days:
         end_datetime: 2024-03-14T17:50+01:00
         talk_title: "👋 See you next time!"
 
+
+
+      IfYourCodeCouldSpeakWhatWouldItTellYouLetGitHubCopilotChatHelpYouFindOut:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2024-03-14T09:50+01:00
+        end_datetime: 2024-03-14T10:30+01:00
+        talk_title: "If your code could speak, what would it tell you? Let GitHub Copilot Chat help you find out!"
+        talk_description: "Have you been in the situation where you need to remember what is this code written by you some time ago about?
+        <br />Not even saying about you trying to understand someone else's code? GitHub Copilot Chat is a new way to code, where you can write code, fix bugs, write tests, and explain code to yourself and others in a chat window in a sidebar or inline. <br />
+        In this session, I'll demonstrate how GitHub Copilot Chat takes developer experience to the next level and how it can help you be more productive in your day-to-day work."
+        talk_video_url:
+        speakers:
+          speaker_7: *MaximSalnikov
+
+      LaunchPadsCultivatingCompanyCultureFromDay1:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2024-03-14T10:30+01:00
+        end_datetime: 2024-03-14T11:10+01:00
+        talk_title: "Launch Pads: Cultivating Company Culture from Day 1"
+        talk_description: "The deepest desire of a developer on the first day of work is to be assigned a task to complete. <br />
+        Or not? <br />
+
+We are not cogs in a machine; companies are communities of people and do not thrive on efficiency alone. I will tell you about how the HR department at SparkFabrik has organized the recruitment, onboarding, and support processes, drawing from our experiences as developers. <br />
+
+I'll show what we have done to streamline, optimize, and make our branch transparent. We will discuss the still-open challenges and some elephants in the room that, in my opinion, are increasingly ignored in discussions in this sector.
+        "
+        talk_video_url:
+        speakers:
+          speaker_4: *PaoloPustorino
+
+
+
       OptimizingProductivity:EmbracingDeveloperPortalsInSoftwareDevelopment:
         item_type: "talk"
         track: *track_1
@@ -195,6 +229,22 @@ days:
         speakers:
           speaker_1: *TalitaGregory
           speaker_2: *VincenzoScamporlino
+
+      TheouterLoopIsDead:HowAIAndCloudDevelopmentWillRevolutioniseDeveloperExperience:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2024-03-14T12:20+01:00
+        end_datetime: 2024-03-14T13:00+01:00
+        talk_title: "The 'outer loop' is dead: How AI and cloud development will revolutionise developer experience"
+        talk_description: "Git heavily influenced our developer tooling, and much of our developer tooling revolves around the 'post commit'.
+        <br /> But, what if the commit was the last step, which came after our continuous integration? And, not before? We couldn’t do this before because we simply didn't have machines powerful enough to run our builds.
+        <br />With cloud development environments, that's no longer the case. And with AI does this mean that we're on the cusp of a revolution of the pull request flow that has been so prevalent.
+        <br />Is the combination of AI 'pair programming' and cloud based development the push that will take the industry away form the typical pull request UI and force us to completely re-think our developer experience? And what if our outer loop will be completely removed and consumed by workspaces in the cloud?'
+        "
+        talk_video_url:
+        speakers:
+          speaker_4: *LouBichard
+
 
       RevolutionizingDeveloperExperienceThroughDocumentationDrivenDevelopment:
         item_type: "talk"
@@ -214,20 +264,20 @@ Beyond code implementation, we explore the continuous nature of documentation, p
         speakers:
           speaker_3: *AbiodunOlowode
 
-      TheouterLoopIsDead:HowAIAndCloudDevelopmentWillRevolutioniseDeveloperExperience:
+      YellowBrickCodeLessonsFromTheWizardOfOzOnEnhancingDeveloperExperience:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2024-03-14T12:20+01:00
-        end_datetime: 2024-03-14T13:00+01:00
-        talk_title: "The 'outer loop' is dead: How AI and cloud development will revolutionise developer experience"
-        talk_description: "Git heavily influenced our developer tooling, and much of our developer tooling revolves around the 'post commit'.
-        <br /> But, what if the commit was the last step, which came after our continuous integration? And, not before? We couldn’t do this before because we simply didn't have machines powerful enough to run our builds.
-        <br />With cloud development environments, that's no longer the case. And with AI does this mean that we're on the cusp of a revolution of the pull request flow that has been so prevalent.
-        <br />Is the combination of AI 'pair programming' and cloud based development the push that will take the industry away form the typical pull request UI and force us to completely re-think our developer experience? And what if our outer loop will be completely removed and consumed by workspaces in the cloud?'
-        "
+        start_datetime: 2024-03-14T15:10+01:00
+        end_datetime: 2024-03-14T15:50+01:00
+        talk_title: "Yellow Brick Code: Lessons from The Wizard of Oz on Enhancing Developer Experience"
+        talk_description: "Join us on our journey through the land of Developer Experience as we empower our engineers to deliver value with confidence and remove gatekeepers. <br />
+        Throughout this adventure, we will learn that empathy, systemic thinking and challenging the status quo are all prerequisites needed to achieve our goals. <br />
+To navigate the maze that is modern day software development, we need to look beyond the toil and shift our attention to the big picture. We bust the myth that the Wizard has all the answers.
+<br />In truth, we had them all along."
         talk_video_url:
         speakers:
-          speaker_4: *LouBichard
+          speaker_8: *ThomasKhalil
+
 
       WhereDevelopersAreChallenged,WhatDevelopersWantAndWhereDevExIsGoing:
         item_type: "talk"
@@ -245,57 +295,13 @@ In particular, you are going to learn about the trajectory of the developer expe
         speakers:
           speaker_5: *FrancescoCorti
 
-      LaunchPadsCultivatingCompanyCultureFromDay1:
-        item_type: "talk"
-        track: *track_1
-        start_datetime: 2024-03-14T10:30+01:00
-        end_datetime: 2024-03-14T11:10+01:00
-        talk_title: "Launch Pads: Cultivating Company Culture from Day 1"
-        talk_description: "The deepest desire of a developer on the first day of work is to be assigned a task to complete. <br />
-        Or not? <br />
-
-We are not cogs in a machine; companies are communities of people and do not thrive on efficiency alone. I will tell you about how the HR department at SparkFabrik has organized the recruitment, onboarding, and support processes, drawing from our experiences as developers. <br />
-
-I'll show what we have done to streamline, optimize, and make our branch transparent. We will discuss the still-open challenges and some elephants in the room that, in my opinion, are increasingly ignored in discussions in this sector.
-        "
-        talk_video_url:
-        speakers:
-          speaker_4: *PaoloPustorino
-
-      IfYourCodeCouldSpeakWhatWouldItTellYouLetGitHubCopilotChatHelpYouFindOut:
-        item_type: "talk"
-        track: *track_1
-        start_datetime: 2024-03-14T09:50+01:00
-        end_datetime: 2024-03-14T10:30+01:00
-        talk_title: "If your code could speak, what would it tell you? Let GitHub Copilot Chat help you find out!"
-        talk_description: "Have you been in the situation where you need to remember what is this code written by you some time ago about?
-        <br />Not even saying about you trying to understand someone else's code? GitHub Copilot Chat is a new way to code, where you can write code, fix bugs, write tests, and explain code to yourself and others in a chat window in a sidebar or inline. <br />
-        In this session, I'll demonstrate how GitHub Copilot Chat takes developer experience to the next level and how it can help you be more productive in your day-to-day work."
-        talk_video_url:
-        speakers:
-          speaker_7: *MaximSalnikov
-
-      YellowBrickCodeLessonsFromTheWizardOfOzOnEnhancingDeveloperExperience:
-        item_type: "talk"
-        track: *track_1
-        start_datetime: 2024-03-14T15:10+01:00
-        end_datetime: 2024-03-14T15:50+01:00
-        talk_title: "Yellow Brick Code: Lessons from The Wizard of Oz on Enhancing Developer Experience"
-        talk_description: "Join us on our journey through the land of Developer Experience as we empower our engineers to deliver value with confidence and remove gatekeepers. <br />
-        Throughout this adventure, we will learn that empathy, systemic thinking and challenging the status quo are all prerequisites needed to achieve our goals. <br />
-To navigate the maze that is modern day software development, we need to look beyond the toil and shift our attention to the big picture. We bust the myth that the Wizard has all the answers.
-<br />In truth, we had them all along."
-        talk_video_url:
-        speakers:
-          speaker_8: *ThomasKhalil
-
       Panel:
         item_type: "talk"
         track: *track_1
         start_datetime: 2024-03-14T17:00+01:00
         end_datetime: 2024-03-14T17:40+01:00
         talk_title: "Panel: 'Developer Experience, why now?'"
-      
+
         talk_video_url:
         speakers:
-          
+
