@@ -300,8 +300,11 @@ In particular, you are going to learn about the trajectory of the developer expe
         track: *track_1
         start_datetime: 2024-03-14T17:00+01:00
         end_datetime: 2024-03-14T17:40+01:00
-        talk_title: "Panel: 'Developer Experience, why now?'"
-
+        talk_title: "PANEL: Developer Experience, why now?"
+        talk_description: "In recent years, Developer Experience (DX) has emerged as a pivotal concern for companies, gaining significant attention for its impact on productivity and innovation. 
+        <br /> In this panel we will explore why DX has become a hot topic now, questioning whether it represents a new paradigm or an evolution of something else 
+        <br /> We'll delve into the challenges of defining DX precisely and offer insights on how organizations can embark on improving it. 
+        <br />Join us as we unravel the complexities of Developer Experience and its growing importance in the tech industry"
         talk_video_url:
         speakers:
-
+          speaker_9: *CirpoCinelli
