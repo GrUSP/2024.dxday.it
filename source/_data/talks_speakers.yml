@@ -308,3 +308,8 @@ In particular, you are going to learn about the trajectory of the developer expe
         talk_video_url:
         speakers:
           speaker_9: *CirpoCinelli
+          speaker_5: *FrancescoCorti
+          speaker_1: *TalitaGregory
+          speaker_8: *ThomasKhalil
+          speaker_4: *LouBichard
+          
