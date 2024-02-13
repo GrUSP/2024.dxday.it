@@ -172,7 +172,7 @@ days:
       coffee-afternoon:
         item_type: "service"
         start_datetime: 2024-03-14T15:50+01:00
-        end_datetime: 2024-03-14T15:50+01:00
+        end_datetime: 2024-03-14T16:20+01:00
         talk_title: "Coffee break"
         service_icon: "coffee"
       closing:
@@ -312,4 +312,3 @@ In particular, you are going to learn about the trajectory of the developer expe
           speaker_1: *TalitaGregory
           speaker_8: *ThomasKhalil
           speaker_4: *LouBichard
-          
