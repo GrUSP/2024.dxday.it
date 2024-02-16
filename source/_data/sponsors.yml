@@ -26,7 +26,7 @@ gold:
   sponsor2:
     name: "Vianova"
     logo_filename: "vianova.svg"
-    site_url: "https://www.vianova.it/people/"
+    site_url: "https://www.vianova.it/"
 silver:
   sponsor2:
     name: "workwave"
