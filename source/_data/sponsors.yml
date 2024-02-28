@@ -28,6 +28,10 @@ gold:
     logo_filename: "vianova.svg"
     site_url: "https://www.vianova.it/"
 silver:
+  sponsor1:
+    name: "gitpod"
+    logo_filename: "gitpod.svg"
+    site_url: "https://www.gitpod.io/"
   sponsor2:
     name: "workwave"
     logo_filename: "workwave.svg"
