@@ -20,10 +20,14 @@ platinum:
     site_url: "http://www.umana.it/"
 gold:
   sponsor1:
+    name: "Docebo"
+    logo_filename: "docebo.svg"
+    site_url: "https://www.docebo.com/"
+  sponsor2:
     name: "SparkFabrik"
     logo_filename: "sparkfabrik.svg"
     site_url: "https://www.sparkfabrik.com/"
-  sponsor2:
+  sponsor3:
     name: "Vianova"
     logo_filename: "vianova.svg"
     site_url: "https://www.vianova.it/"
